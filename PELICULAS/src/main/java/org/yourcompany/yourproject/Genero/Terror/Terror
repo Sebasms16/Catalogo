@@ -1,0 +1,14 @@
+package org.yourcompany.yourproject.Genero.Terror
+;
+
+public class Terror extends Genero {
+    
+    private String tipoDeTerror; 
+    public Terror(int año, String director, int duracion, String nombre, String restriccion) {
+        super(año, director, duracion, "Terror", nombre, restriccion);
+    }
+
+
+  }
+
+
